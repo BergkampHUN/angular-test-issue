@@ -4,8 +4,8 @@ import { AppComponent } from './app.component';
 import { TestService } from './test.service';
 
 describe('CaseDetailsComponent', () => {
-  let component: CaseDetailsComponent;
-  let fixture: ComponentFixture<CaseDetailsComponent>;
+  let component: AppComponent;
+  let fixture: ComponentFixture<AppComponent>;
   let caseServiceMock: any;
   beforeEach(async () => {
     testServiceMock = jasmine.createSpyObj('TestService', ['getCase']);
